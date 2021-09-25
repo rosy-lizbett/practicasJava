@@ -5,11 +5,11 @@ import java.util.Scanner; // importando la libreria scanner para pedir que intro
                           // el cliente
 
 public class Lavadora_Uno {
-   public static  void main (String[] args){
-       Scanner entrada = new Scanner(System.in);  // instanciando
+   public static void main (String[] args){
+       Scanner entrada = new Scanner(System.in);  // instanciando 
        
        System.out.println("¿la ropa es blanca o de color?");
-       System.out.println("presiona 1 - ropa blanca / presiona 2 - ropa color");
+       System.out.println("presiona 0 - ropa blanca / presiona 2 - ropa color");
        int TipoDeRopa = entrada.nextInt();
        
        System.out.println("¿cuantos kilos de ropa es?");
